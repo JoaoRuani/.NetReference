@@ -31,7 +31,22 @@ To run the commands bellow you'll need the Entity Framework CLI tool that you ca
 
 `dotnet ef migrations remove`
 
+**Generate Code**
+
+To run the commands below you'll need th aspnet-codegenerator that can be install with
+
+`dotnet tool install --global dotnet-aspnet-codegenerator`
+
+**Generate a Controller for a API**
+
+`dotnet aspnet-codegenerator controller -name ControllerName -async -api -m ModelName -dc YourDbContext -outDir Controllers`
+
+
 ## Learning References
+
+### Everything
+
+-[Channel 9](https://channel9.msdn.com/)
 
 ### .NET Core
 
